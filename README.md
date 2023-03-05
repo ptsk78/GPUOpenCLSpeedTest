@@ -1,6 +1,6 @@
 # GPU OpenCL Speed Test
 
-### Comparison of single threaded CPU execution vs GPU execution (speed up of newton's algorithm)
+### Comparison of single threaded CPU execution vs GPU execution (speed up of Newton's algorithm on a GPU)
 
 ### Works on [AMD Ryzen 7 5825U](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) processor
 
