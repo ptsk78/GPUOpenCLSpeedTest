@@ -37,8 +37,6 @@ Speedup: 228.783631x
 
 ./run.sh
 
-Output:
-
   -- GPU 0 --
   
   DEVICE_NAME = [GeForce RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/)
