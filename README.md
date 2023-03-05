@@ -10,9 +10,9 @@
   
   DEVICE_NAME = gfx90c:xnack-
   
-  DEVICE_VENDOR = Advanced Micro Devices, Inc.
+  DEVICE_VENDOR = [Advanced Micro Devices, Inc.](https://www.amd.com/)
   
-  DEVICE_VERSION = OpenCL 2.0 
+  DEVICE_VERSION = [OpenCL 2.0](https://registry.khronos.org/OpenCL/specs/opencl-2.0.pdf)
   
   DRIVER_VERSION = 3513.0 (HSA1.1,LC)
   
@@ -63,7 +63,7 @@ Output:
   
   DEVICE_NAME = [GeForce RTX 3090](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/)
   
-  DEVICE_VENDOR = NVIDIA Corporation
+  DEVICE_VENDOR = [NVIDIA Corporation](https://www.nvidia.com/)
   
   DEVICE_VERSION = [OpenCL](https://www.khronos.org/registry/OpenCL/) 1.2 [CUDA](https://developer.nvidia.com/cuda-zone)
   
