@@ -53,6 +53,7 @@ Speedup: 228.783631x
 
 5.009953 5.009953
 
+Previously on NVIDIA's GPU.
 
 ./run.sh
 
