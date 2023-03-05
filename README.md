@@ -1,4 +1,4 @@
-# [GPUOpenCLSpeedTest](https://www.frisky.world/2020/11/first-speed-test-of-gpu-rtx-3090-using.html)
+# GPUOpenCLSpeedTest
 
 ### Comparison of single threaded CPU execution vs GPU execution (speed up of newton's algorithm)
 
@@ -55,3 +55,55 @@ Speedup: 4204.213465x
 Considering GPU freq is 1.7 GHz and CPU freq is 3.8 Ghz, relative speedup is 4204.213465 * 3.8 / 1.7 ~ 9397.65 (and I have [10496 gpu cores](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/) -> meaning getting almost there to achieve 100% usage of all cores - of course there is some overhead, hence lower number).
 
 To install OpenCL: 'sudo apt install ocl-icd-opencl-dev'
+
+### Works even on [AMD Ryzen 7 5825U](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) processor
+
+./run.sh
+
+  -- GPU 0 --
+  
+  DEVICE_NAME = gfx90c:xnack-
+  
+  DEVICE_VENDOR = Advanced Micro Devices, Inc.
+  
+  DEVICE_VERSION = OpenCL 2.0 
+  
+  DRIVER_VERSION = 3513.0 (HSA1.1,LC)
+  
+  DEVICE_MAX_COMPUTE_UNITS = 8
+  
+  DEVICE_MAX_CLOCK_FREQUENCY = 2000
+  
+  DEVICE_GLOBAL_MEM_SIZE = 2147483648
+  
+Kernels built succesfully!
+
+Elapsed time CPU: 30.622689 seconds
+
+2048000 2048000 256
+
+Elapsed time GPU: 0.133850 seconds
+
+Speedup: 228.783631x
+
+
+4.987580 4.987580
+
+4.990047 4.990047
+
+4.992507 4.992507
+
+4.994951 4.994951
+
+4.997340 4.997340
+
+5.000000 5.000000
+
+5.002660 5.002660
+
+5.005049 5.005049
+
+5.007493 5.007493
+
+5.009953 5.009953
+
