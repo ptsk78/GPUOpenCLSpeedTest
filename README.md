@@ -2,7 +2,7 @@
 
 ### Comparison of single threaded CPU execution vs GPU execution (speed up of newton's algorithm)
 
-### Works even on [AMD Ryzen 7 5825U](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) processor
+### Works on [AMD Ryzen 7 5825U](https://www.amd.com/en/products/apu/amd-ryzen-7-5825u) processor
 
 ./run.sh
 
